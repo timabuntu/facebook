@@ -2,9 +2,9 @@ import Comment from "./Comment";
 
 function Post({ post }) {
 	return (
-		<section className='bg-white rounded-md shadow-md  mt-5 p-8'>
+		<section className='bg-white rounded-md shadow-md mt-5 p-8'>
 			<article>
-				<div className='flex '>
+				<div className='flex'>
 					<img
 						className='rounded-full h-12'
 						src={post.author.avatar}
@@ -16,7 +16,7 @@ function Post({ post }) {
 					</div>
 				</div>
 			</article>
-			<div className=' divide-y divide-gray-100'>
+			<div className='divide-y divide-gray-100'>
 				<p className='py-4 text-gray-800'>{post.content}</p>
 
 				<div>
