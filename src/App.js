@@ -1,11 +1,12 @@
 import Header from "./components/Header";
 import PostList from "./components/PostList";
-
 function App() {
 	return (
 		<>
-			<Header />
-			<PostList />
+			<main className=' bg-gray-100 min-h-screen'>
+				<Header />
+				<PostList />
+			</main>
 		</>
 	);
 }

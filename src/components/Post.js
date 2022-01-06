@@ -1,18 +1,28 @@
 import Comment from "./Comment";
 
-function Post() {
+function Post({ post }) {
 	return (
-		<section className='bg-green-200'>
-			<div className='p-4'>
-				<img src='' alt='' />
-				<div className=''>avatar</div>
-				<article>
-					<h3>Júlio Alcantara</h3>
-					<p>05 Jan 2021</p>
-				</article>
-				<div className='mt-5 divide-y divide-gray-300'>
-					<p>Pergunta?</p>
-					<Comment />
+		<section className='bg-white rounded-md shadow-md  mt-5 p-8'>
+			<article>
+				<div className='flex '>
+					<img
+						className='rounded-full h-12'
+						src={post.author.avatar}
+						alt={post.author.name}
+					/>
+					<div className='ml-3'>
+						<h3 className='font-semibold text-gray-700'>{post.author.name}</h3>
+						<p className='text-gray-400 text-sm'>{post.date}</p>
+					</div>
+				</div>
+			</article>
+			<div className=' divide-y divide-gray-100'>
+				<p className='py-4 text-gray-800'>{post.content}</p>
+
+				<div>
+					{post.comments.map((comment) => (
+						<Comment key={comment.id} comment={comment} />
+					))}
 				</div>
 			</div>
 		</section>
