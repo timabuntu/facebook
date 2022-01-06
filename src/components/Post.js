@@ -1,3 +1,5 @@
+import Comment from "./Comment";
+
 function Post() {
 	return (
 		<section className='bg-green-200'>
@@ -10,7 +12,7 @@ function Post() {
 				</article>
 				<div className='mt-5 divide-y divide-gray-300'>
 					<p>Pergunta?</p>
-					<p>Resposta!</p>
+					<Comment />
 				</div>
 			</div>
 		</section>
