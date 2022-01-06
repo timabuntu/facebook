@@ -1,6 +1,6 @@
 # Interface Facebook
 
-Este projeto é criado utilizando **ReactJS e Tailwind** reponsividade aplicada.
+Este projeto é criado utilizando **ReactJS e Tailwind**.
 
 Nessa aplicação irei desenvolver uma **interface** semelhante com a do
 **Facebook** em modo responsivo.
