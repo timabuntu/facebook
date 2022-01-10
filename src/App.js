@@ -3,7 +3,7 @@ import PostList from "./components/PostList";
 function App() {
 	return (
 		<>
-			<main className=' bg-gray-100 min-h-screen'>
+			<main className='min-h-screen bg-gray-100 '>
 				<Header />
 				<PostList />
 			</main>

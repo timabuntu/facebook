@@ -2,17 +2,17 @@ import Comment from "./Comment";
 
 function Post({ post }) {
 	return (
-		<section className='bg-white rounded-md shadow-md mt-5 p-8'>
+		<section className='p-8 mt-5 bg-white rounded-md shadow-md'>
 			<article>
 				<div className='flex'>
 					<img
-						className='rounded-full h-12'
+						className='h-12 rounded-full'
 						src={post.author.avatar}
 						alt={post.author.name}
 					/>
 					<div className='ml-3'>
 						<h3 className='font-semibold text-gray-700'>{post.author.name}</h3>
-						<p className='text-gray-400 text-sm'>{post.date}</p>
+						<p className='text-sm text-gray-400'>{post.date}</p>
 					</div>
 				</div>
 			</article>

@@ -1,13 +1,13 @@
 function Comment({ comment }) {
 	return (
-		<section className='flex py-3 h-auto mt-2'>
+		<section className='flex h-auto py-3 mt-2'>
 			<div className='flex -mb-4'>
 				<img
-					className='rounded-full h-10'
+					className='h-10 rounded-full'
 					src={comment.author.avatar}
 					alt={comment.author.name}
 				/>
-				<p className='bg-gray-200 ml-3 rounded-3xl p-3 text-gray-900'>
+				<p className='p-3 ml-3 text-gray-900 bg-gray-200 rounded-3xl'>
 					<strong className='mr-1'>{comment.author.name}</strong>
 					{comment.content}
 				</p>

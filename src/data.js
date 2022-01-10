@@ -1,4 +1,4 @@
-export default {
+const data = {
 	posts: [
 		{
 			id: 1,
@@ -16,7 +16,7 @@ export default {
 						avatar: "https://randomuser.me/api/portraits/men/25.jpg",
 					},
 					content:
-						"A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando videos e criando posts, pode me chamar no Discord! (Sério, me chamem memso, esse comentário é real)",
+						"A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp",
 				},
 			],
 		},
@@ -28,7 +28,7 @@ export default {
 			},
 			date: "05 Jan 2022",
 			content: `Fala galera, Beleza?
-			
+
 				Estou fazendo o Bootcamp Gostack da RocketSeat e está sendo muito massa! Alguém mais ai fazendo, comenta na publicação para trocarmos uma ideia.
 			`,
 			comments: [
@@ -54,3 +54,5 @@ export default {
 		},
 	],
 };
+
+export default  data
