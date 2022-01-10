@@ -7,7 +7,7 @@ Nessa aplicação implementei uma **interface** semelhante a do
 
 As informações contidas na interface são **estáticas**
 
-## Resultado abaixo
+## Resultado abaixo Mobile/Desktop
 
 <p align="center">
   <img src="./src/assets/facebookMobile.png" width="230" alt="Facebook versão Mobile" title="Facebook Mobile"/>
